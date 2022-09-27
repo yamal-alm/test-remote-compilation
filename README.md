@@ -1,2 +1,2 @@
 # test-remote-compilation
-The purpose of this repository is to provide an example where some issue using Mirakle can be reproduced
+Example project where this issue can be reproduced: https://github.com/Adambl4/mirakle/issues/124
