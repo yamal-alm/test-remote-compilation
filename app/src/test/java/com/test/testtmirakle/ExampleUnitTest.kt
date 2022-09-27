@@ -14,12 +14,12 @@ import org.junit.Assert.*
 @ExperimentalCoroutinesApi
 class ExampleUnitTest {
     @Test
-    fun addition_isCorrect() = runTest {
-        assertEquals(4, 2 + 3)
+    fun `this test should fail`() = runTest {
+        assertTrue(false)
     }
 
     @Test
-    fun addition_isCorrect2() {
-        assertEquals(4, 2 + 2)
+    fun `this test should not fail`() {
+        assertTrue(true)
     }
 }
